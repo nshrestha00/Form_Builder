@@ -15,6 +15,6 @@ const TextField = React.memo(({ label, value, onChange, error }) => {
     );
 });
 
-TextField.displayName = 'TextField';  // Add the displayName here
+TextField.displayName = 'TextField';  
 
 export default TextField;
