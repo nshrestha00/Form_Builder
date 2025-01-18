@@ -1,6 +1,10 @@
+import FormBuilder from "./components/FormBuilder/FormBuilder"
+
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <FormBuilder/>
+    </div>
   )
 }
 
