@@ -34,7 +34,7 @@ const FormBuilder = () => {
       label: `New ${elementType} field`,
       required: false,
       options: elementType === 'select' || elementType === 'radio' 
-        ? [{ label: 'Option 1', value: '1' }] 
+        ? [{ label: 'Option 1', value: '1' },{ label: 'Option 2', value: '2' }] 
         : undefined
     });
   };
